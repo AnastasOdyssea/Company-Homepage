@@ -6,25 +6,25 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  
-}
 
 body{
   background-color: rgb(230, 238, 235);
   margin: 0;
 }
-/*headre*/
+
+/*header*/
 .header {
-  background-image: url(index-1596545886.webp);
+  background-image: url("images/index-1596545886.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 500px; 
   text-align: center;
   margin-top: 50px;
-  color: rgb(119, 109, 128);
+  color: red;
+  font-size: 2rem;
  }
+
 /*navbar*/
 .navbar{
   position: absolute;
@@ -32,9 +32,10 @@ body{
   right: 10px;
   display:flex;
   flex-direction: row;
-  column-gap: 40px;
-  font-size: 25px;
+  column-gap: 2rem;
+  font-size: 1.5rem;
   }
+ 
 /* The programs of the gym*/
 .program{
   display: flex;
@@ -52,11 +53,16 @@ body{
     font-family: 'Ubuntu Mono', monospace;
   }
   
-  .team{
+  .statement {
+    margin: 1rem;
     text-align: center;
-    margin-top: 50px;
   }
+
 /*The team of the gym*/
+.team{
+  text-align: center;
+  margin-top: 50px;
+}
   .ourteam{
   display: flex;
   flex-direction: row;
@@ -67,25 +73,28 @@ body{
   gap:50px;
   margin-top: 100px;
   }
+
 /*images*/
   img {
     width: 300px;
     height: 200px;
     justify-content: center;
   }
+
 /*Footer*/
   .contact {
   text-align: right;
   padding-right: 20px;
   padding-bottom: 5px;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .socialmedia {
   position: relative;
   top: 150px;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: black;
+  padding-left:20px;
 }
 
 .fa {
